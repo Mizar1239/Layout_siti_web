@@ -1,0 +1,81 @@
+body{
+  background: orange ;
+}
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+header{
+  background: blue ;
+  display: flex ;
+  justify-content: space-between ;
+  margin-bottom: 10px ;
+}
+button{
+  outline: none ;
+}
+#Logo{
+  width: 100px ;
+  height: 50px ;
+  background: red ;
+}
+nav{
+  background: red ;
+}
+nav ul li{
+  display: inline ;
+}
+
+h1{
+  padding: 5px ;
+}
+
+#hero{
+  margin-bottom: 10px ;
+  background: orange ;
+  display: flex ;
+  justify-content: center;
+}
+.herographic img{
+  width: 100% ;
+}
+.centrati{
+  display: flex ;
+  flex-direction: column ;
+  justify-content: center ;
+}
+.herobutton{
+  background: lightgreen ;
+  width: 50% ;
+  text-align: center;
+  border-radius: 10px ;
+  padding: 10px ;
+  margin: 0 auto ;
+}
+.heroheading{
+  margin: 0 0 10px 10px ;
+  background: lightgreen ;
+}
+
+#articles{
+  margin-bottom: 10px ;
+  background: orange ;
+  display: flex;
+  justify-content: center;
+}
+.articlecontainer{
+  margin: 0 1em ;
+  padding: 5px ;
+  background: red ;
+  width: 300px ;
+}
+.articlecontainer img{
+  width: 100% ;
+}
+
+footer{
+  background: orange ;
+  height: 50px ;
+  text-align: center;
+  margin-bottom: 10px ;
+}

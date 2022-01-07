@@ -1,0 +1,77 @@
+* {
+	margin: 0 0 ;
+	padding: 0 0 ;
+}
+body{
+	background: #3C0052 ;
+	border-left: 10px solid yellow ;
+	border-right: 10px solid yellow ;
+	border-bottom: 10px solid yellow ;
+	color: white ;
+}
+#intestazione{
+	font-size: 60px ;
+	justify-content: space-between ;
+	border-bottom: 10px solid yellow ;
+	display: flex ;
+}
+#title{
+	margin-bottom: 0px ;
+	margin-left: 5px ;
+}
+button{
+	background: #3C0052 ;
+	border: 5px solid yellow ;
+	margin-top: 30px ;
+	margin-left: 50px ;
+	margin-bottom: 20px ;
+	padding: 10px ;
+	padding-left: 30px ;
+	padding-right: 30px ;
+	font-size: 40px ;
+	color: white ;
+	outline: none ;
+	transition: background-color 0.2s ;
+}
+button:hover{
+	background: yellow ;
+	border: 5px solid purple ;
+	color: black ;
+}
+button:active{
+	color: yellow ;
+	background: green ;
+}
+.immagine{
+	border-right: 10px solid yellow ;
+}
+nav{
+	display: flex;
+}
+.lista{
+	background: #3C0052 ;
+	width: 25% ;
+	margin: 0 0 ;
+	display: inline ;
+	padding: 17px 6px 6px ;
+	font-size: 30px ;
+	border-left: 5px solid yellow ;
+	border-top: 5px solid yellow ;
+}
+.lista:hover{
+	background: black ;
+}
+#listafirst{
+	border-left: 10px solid yellow ;
+}
+#first{
+	font-size: 30px ;
+	display: flex ;
+	border-bottom: 10px solid yellow ;
+}
+#testo{
+	padding: 30px ;
+}
+#primo{
+	height: 90px ;
+}
